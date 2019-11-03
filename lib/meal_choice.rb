@@ -3,7 +3,7 @@ def meal_choice (veg1, veg2, protein = "meat");
 quote = "What a nutritious meal!" 
 value = "A plate of #{protein} with #{veg1} and #{veg2}."
 
-p quote + value
+return quote + value
 end
 
 
